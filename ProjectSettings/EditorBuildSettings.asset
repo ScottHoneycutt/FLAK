@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: dd61f63a1181d1743b886062d4bcf7e4
+  - enabled: 1
+    path: Assets/Scenes/World Map.unity
+    guid: f062b16b974dac84192174a9b57d098d
+  - enabled: 1
+    path: Assets/Scenes/Stockpile.unity
+    guid: 44805a6715e485b46b013b5bab1438e6
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 964d2eb4e41b8a042af51682b7be7dfe
+  - enabled: 1
+    path: Assets/Scenes/Testing Ground.unity
+    guid: c6ca0daba5be3c6418aa48c8da55882f
+  - enabled: 1
+    path: Assets/Scenes/Fleet Survival Mode.unity
+    guid: ce02f88af18aefd44abb2e59909295ca
+  - enabled: 1
+    path: Assets/Scenes/Solo Survival Mode.unity
+    guid: facf97730e4d5a1458bf1770d3a19cc5
+  - enabled: 1
+    path: Assets/Scenes/Base Levels/Level 1.unity
+    guid: 54767c20a85491e44a96cafc7f4303b6
+  - enabled: 1
+    path: Assets/Scenes/Base Levels/Level 2.unity
+    guid: 90048d1e8fd180341b70c3f027f2df8e
+  - enabled: 1
+    path: Assets/Scenes/Base Levels/Level 3.unity
+    guid: f49ad17785c222440acbd73fd5347a8c
+  - enabled: 1
+    path: Assets/Scenes/Base Levels/Level 4.unity
+    guid: bfe69292d3de2d6419bbf05ee73c02f9
+  - enabled: 1
+    path: Assets/Scenes/Base Levels/Level 5.unity
+    guid: e410e8d44a621ac458bca758cf188091
+  - enabled: 1
+    path: Assets/Scenes/Base Levels/Level 6.unity
+    guid: 3e07cdc74cd3cad4b8637713c628cb0e
+  - enabled: 1
+    path: Assets/Scenes/Base Levels/Level 7.unity
+    guid: f4608a7fac9352c44b2e6f425b9073db
+  m_configObjects: {}

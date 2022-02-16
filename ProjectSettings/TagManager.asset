@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Aircraft
+  - Grounded
+  - Missile
+  - BigShip
+  - MediumShip
+  - PracticeTarget
+  - Bomb
+  - Rocket
+  - Carrier
+  - SmallShip
+  - Bunker
+  - Bomber
+  - Frigate
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemy
+  - Enemy Cannons
+  - Enemy Missiles
+  - Ally
+  - Allied Cannons
+  - Allied Missiles
+  - Allied AA Targeter
+  - Allied Flak Targeter, Allied Missile Targeter
+  - Enemy AA Targeter
+  - Enemy Flak Targeter, Enemy Missile Targeter
+  - Terrain
+  - Enemy Ship
+  - Allied Ship
+  - Allied Fire Control Hitbox
+  - Terrain Proximity Hitbox
+  - Allied Heal Box
+  - Enemy Fire Control Hitbox
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

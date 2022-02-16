@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5886269981992606632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5886269981992606633}
+  - component: {fileID: 5886269981992606646}
+  m_Layer: 0
+  m_Name: Pooling Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5886269981992606633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5886269981992606632}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5886269981992606646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5886269981992606632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73deedc3c9a78c4c8ece377dfbc0616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radarSphere: {fileID: 0}
+  uiPanel: {fileID: 0}
+  pools:
+  - tag: Allied Air Missiles
+    prefab: {fileID: 1083866692021390, guid: 433cf3fb76e673b438b7523b6739befa, type: 3}
+    size: 25
+  - tag: Enemy Air Missiles
+    prefab: {fileID: 1083866692021390, guid: 994a1f81dac9b4d4aa862dd920e33f92, type: 3}
+    size: 25
+  - tag: Allied SAMs
+    prefab: {fileID: 1458808167386236, guid: 5dc4a84fe548ec244bfc0020998d7a20, type: 3}
+    size: 5
+  - tag: Enemy SAMs
+    prefab: {fileID: 1255279487942954, guid: ef6dd8451498e2b47908944628d5d589, type: 3}
+    size: 5
+  - tag: Allied Fighters
+    prefab: {fileID: 1979473151953284, guid: 2116bf60e50bbfb43be153305a441121, type: 3}
+    size: 20
+  - tag: Enemy Fighters
+    prefab: {fileID: 1403509058175162, guid: a5d496fab2b26e047965f84cedd41919, type: 3}
+    size: 20
+  - tag: Missile Explosions
+    prefab: {fileID: 1752841859298414, guid: 44ca991ff9c08ad43974cb0d27379fe2, type: 3}
+    size: 30
+  - tag: Turret Explosions
+    prefab: {fileID: 1879668715553698, guid: 3748f14b2c95dca4fb9c84c361c4d323, type: 3}
+    size: 8
+  - tag: Fighter Explosions
+    prefab: {fileID: 1432615677168410, guid: 3c0bdd41726a20647b9c43e0bd0e1098, type: 3}
+    size: 20
+  - tag: Cannon Impacts
+    prefab: {fileID: 1870443533546942, guid: 6aea60c20633b0f49b2528766013b44d, type: 3}
+    size: 100
+  - tag: Enemy Flak Explosions
+    prefab: {fileID: 1915458726569572, guid: e660dbf0b2b5f3948ae1ed0ee638ea3a, type: 3}
+    size: 15
+  - tag: Allied Flak Explosions
+    prefab: {fileID: 1659270271354538, guid: 08a4aa08f71ad1f40b3047728a164fec, type: 3}
+    size: 15
+  - tag: Player Missiles
+    prefab: {fileID: 7247764251703149090, guid: 5367a4562d09e0d4ca658830ac62bbac,
+      type: 3}
+    size: 6
+  - tag: Destroyed Destroyers
+    prefab: {fileID: 1514572434375286, guid: 28c32ab60834fc9418761cfad35249c7, type: 3}
+    size: 8
+  - tag: Bombs
+    prefab: {fileID: 587990102047420142, guid: a39da60b037cabe47aa79c6ede72daa4, type: 3}
+    size: 15
+  - tag: Bomb Explosions
+    prefab: {fileID: 4756033390266811985, guid: 6e492700981034c4cbb3f8139df03e3c,
+      type: 3}
+    size: 50
+  - tag: Enemy SAMs Level 2
+    prefab: {fileID: 7247863000695078060, guid: e65a15a9abeab9b41bcb1cacf445e845,
+      type: 3}
+    size: 15
+  - tag: Rocket Explosions
+    prefab: {fileID: 3975148218164698564, guid: fa83a7dc92bf5bc4992b63c825a73246,
+      type: 3}
+    size: 120
+  - tag: Enemy Storm Rockets
+    prefab: {fileID: 8647389075898895751, guid: 3d35bb4720b780643891d76fdb08b8a0,
+      type: 3}
+    size: 64
+  - tag: Player Rockets
+    prefab: {fileID: 1214528367256972485, guid: 0a56cbc0dbe78614abc99e2102545ebc,
+      type: 3}
+    size: 54
+  - tag: Player Flak Explosions
+    prefab: {fileID: 3034726091149007991, guid: 2fc5a7126b3536f439cff91df922cb1a,
+      type: 3}
+    size: 18
+  - tag: Player Railgun Munitions
+    prefab: {fileID: 9203541172297578039, guid: fedf44a6cb043ff4ead100a7ef131c83,
+      type: 3}
+    size: 2
+  - tag: Enemy Missile Bay Rockets
+    prefab: {fileID: 6349713867832984115, guid: 3e1c8ddb4d5f4fb4a8d0e89490477a36,
+      type: 3}
+    size: 30
+  - tag: Destroyed Carriers
+    prefab: {fileID: 1519057898733030136, guid: 80613ca96d1f80f43942414d69ab3dab,
+      type: 3}
+    size: 4
+  - tag: Allied Missile Bay Rockets
+    prefab: {fileID: 5529042642618926812, guid: a7d3286c229d9d14f9c31e21035aa0e8,
+      type: 3}
+    size: 30
+  - tag: Allied SAMs Level 2
+    prefab: {fileID: 6734143222246452794, guid: b800aa36e63c31b4590041ebcdaff967,
+      type: 3}
+    size: 15
+  - tag: Allied Air Missiles Level 2
+    prefab: {fileID: 6734143222246452794, guid: b800aa36e63c31b4590041ebcdaff967,
+      type: 3}
+    size: 25
+  - tag: Enemy Air Missiles Level 2
+    prefab: {fileID: 6734143222246452794, guid: b800aa36e63c31b4590041ebcdaff967,
+      type: 3}
+    size: 25
+  - tag: Enemy Fighters Level 2
+    prefab: {fileID: 3270988601286519430, guid: bb8c0990d6f1cd544859fcf3112e0c0a,
+      type: 3}
+    size: 30
+  - tag: Allied Fighters Level 2
+    prefab: {fileID: 7069025412262838794, guid: cccfd8a9cb003754c8dda965dfca0793,
+      type: 3}
+    size: 30
+  - tag: Destroyed Patrol Boats
+    prefab: {fileID: 6858326904827353781, guid: 6e48594956b08df4ca595686654c50f3,
+      type: 3}
+    size: 10
+  - tag: Allied Shell Explosions
+    prefab: {fileID: 6110710300385621427, guid: c0f3e96446873224a9cdbb83644b0b98,
+      type: 3}
+    size: 10
+  - tag: Enemy Shell Explosions
+    prefab: {fileID: 3613402289404667249, guid: 397b29257042d5d449dacd493d3797fc,
+      type: 3}
+    size: 10
+  - tag: Allied Shell Points
+    prefab: {fileID: 2529006610295777125, guid: c833fb0e291fa9146a41abad6634c78c,
+      type: 3}
+    size: 10
+  - tag: Enemy Shell Points
+    prefab: {fileID: 4252622122101115270, guid: 8d8a41d3cf85c7648a50463332d52508,
+      type: 3}
+    size: 10
+  - tag: Allied Bombs
+    prefab: {fileID: 5516480107023295705, guid: 3f0e74c0003d69c4280632a277d71bdd,
+      type: 3}
+    size: 75
+  - tag: Bomber Explosions
+    prefab: {fileID: 5193356121369899441, guid: 6ead4d9fcd99a2f4984e50eadf75d641,
+      type: 3}
+    size: 5
+  - tag: Destroyed Frigates
+    prefab: {fileID: 1819008785293524909, guid: 07b92297a6a98db4b9f0473b67ac28a9,
+      type: 3}
+    size: 8
+  uiPools:
+  - tag: Allied Unit UIs
+    prefab: {fileID: 1784864494523434, guid: f9b973ef21fd8a645af471e4f018c5b4, type: 3}
+    size: 35
+  - tag: Allied Unit Radars
+    prefab: {fileID: 9206154298537607048, guid: 900bbedb197ad444ea050ac00946f9d3,
+      type: 3}
+    size: 35
+  - tag: Enemy Unit UIs
+    prefab: {fileID: 1402498111872862, guid: 4909255eb134427468b9b2e4ed7daa64, type: 3}
+    size: 45
+  - tag: Enemy Unit Radars
+    prefab: {fileID: 1006708352093118, guid: 25b17c2405f08da42be168df3d76f081, type: 3}
+    size: 45
+  - tag: Allied Missile UIs
+    prefab: {fileID: 1784864494523434, guid: 2d1fac2888dec634aac931bedcdf8a52, type: 3}
+    size: 50
+  - tag: Allied Missile Radars
+    prefab: {fileID: 1007705987476526, guid: 54ce68b3c19a492458eaf0fa426bb47e, type: 3}
+    size: 100
+  - tag: Enemy Missile UIs
+    prefab: {fileID: 1402498111872862, guid: 08172992d7066194a817cc2f31a75dcd, type: 3}
+    size: 50
+  - tag: Enemy Missile Radars
+    prefab: {fileID: 1776744674762804, guid: 1d0cf7a7273cb3e4ca5c69a5030513e8, type: 3}
+    size: 100
+  - tag: Neutral Unit UIs
+    prefab: {fileID: 1402498111872862, guid: 5712fd2a27dbdd940a421f1b7abc2758, type: 3}
+    size: 15
+  - tag: Neutral Unit Radars
+    prefab: {fileID: 1006708352093118, guid: 70f8c06652b29564b9c131bacf92276b, type: 3}
+    size: 15
+  - tag: Alpine Text
+    prefab: {fileID: 1402498111872862, guid: 801031c0344156d40aec8663cdbf6e9c, type: 3}
+    size: 1
+  - tag: Javelin Text
+    prefab: {fileID: 1402498111872862, guid: 2a0ed24b27927474a8082e97afc29382, type: 3}
+    size: 1

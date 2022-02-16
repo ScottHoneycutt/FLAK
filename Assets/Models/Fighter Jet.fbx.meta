@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: a449c62ba5019384e954fa34d428aa7d
+timeCreated: 1530662382
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body.010
+    100002: Cannon Barrels
+    100004: Cannon Cover
+    100006: Cannon Rotator
+    100008: Cockpit
+    100010: //RootNode
+    100012: Missile Body Front
+    100014: Missile Body Front.001
+    100016: Missile Body Rear
+    100018: Missile Body Rear.001
+    100020: Missile Fins
+    100022: Missile Fins.001
+    100024: Missile Nose
+    100026: Missile Nose.001
+    100028: Thruster Cover.003
+    100030: Thruster Cover.004
+    100032: Thruster.003
+    100034: Thruster.004
+    100036: Wing Tips
+    400000: Body.010
+    400002: Cannon Barrels
+    400004: Cannon Cover
+    400006: Cannon Rotator
+    400008: Cockpit
+    400010: //RootNode
+    400012: Missile Body Front
+    400014: Missile Body Front.001
+    400016: Missile Body Rear
+    400018: Missile Body Rear.001
+    400020: Missile Fins
+    400022: Missile Fins.001
+    400024: Missile Nose
+    400026: Missile Nose.001
+    400028: Thruster Cover.003
+    400030: Thruster Cover.004
+    400032: Thruster.003
+    400034: Thruster.004
+    400036: Wing Tips
+    2100000: No Name
+    2100002: Burn
+    2100004: Body
+    2100006: Missile Body Front
+    2300000: Body.010
+    2300002: Cannon Barrels
+    2300004: Cannon Cover
+    2300006: Cannon Rotator
+    2300008: Cockpit
+    2300010: Missile Body Front
+    2300012: Missile Body Front.001
+    2300014: Missile Body Rear
+    2300016: Missile Body Rear.001
+    2300018: Missile Fins
+    2300020: Missile Fins.001
+    2300022: Missile Nose
+    2300024: Missile Nose.001
+    2300026: Thruster Cover.003
+    2300028: Thruster Cover.004
+    2300030: Thruster.003
+    2300032: Thruster.004
+    2300034: Wing Tips
+    3300000: Body.010
+    3300002: Cannon Barrels
+    3300004: Cannon Cover
+    3300006: Cannon Rotator
+    3300008: Cockpit
+    3300010: Missile Body Front
+    3300012: Missile Body Front.001
+    3300014: Missile Body Rear
+    3300016: Missile Body Rear.001
+    3300018: Missile Fins
+    3300020: Missile Fins.001
+    3300022: Missile Nose
+    3300024: Missile Nose.001
+    3300026: Thruster Cover.003
+    3300028: Thruster Cover.004
+    3300030: Thruster.003
+    3300032: Thruster.004
+    3300034: Wing Tips
+    4300000: Cockpit
+    4300002: Thruster.004
+    4300004: Thruster Cover.004
+    4300006: Thruster.003
+    4300008: Thruster Cover.003
+    4300010: Missile Body Rear.001
+    4300012: Missile Nose.001
+    4300014: Missile Fins.001
+    4300016: Missile Body Front.001
+    4300018: Body.010
+    4300020: Wing Tips
+    4300022: Missile Body Front
+    4300024: Missile Fins
+    4300026: Missile Nose
+    4300028: Cannon Cover
+    4300030: Cannon Rotator
+    4300032: Cannon Barrels
+    4300034: Missile Body Rear
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
